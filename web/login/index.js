@@ -37,7 +37,6 @@ app.post('/api/flag', (req, res) => {
         res.end();
         return;
     }
-    
     if (result) {
         res.json({ success: true, flag: process.env.FLAG });
         res.end();
