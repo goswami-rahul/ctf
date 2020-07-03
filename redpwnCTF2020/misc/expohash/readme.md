@@ -1,4 +1,4 @@
-# Breif Writeup
+# Brief Writeup
 
 Let's assume aur keys are in array A[1..N], where N = 10^5.  
 For simplicity, A[0] = 0  
