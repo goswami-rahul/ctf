@@ -1,5 +1,7 @@
 # Web Warm-up
 
+<https://ctftime.org/writeup/22121>  
+
 We are given a url <http://69.90.132.196:5003/?view-source> which greets us with this PHP script. We want to get contents of a file `flag.php` in this task.
 
 ```php

@@ -1,4 +1,6 @@
-# Brief Writeup
+# expohash
+
+<https://ctftime.org/writeup/21811>
 
 Let's assume aur keys are in array A[1..N], where N = 10^5.  
 For simplicity, A[0] = 0  
