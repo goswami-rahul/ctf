@@ -13,7 +13,6 @@ def decrypt(c):
     ret = 0
 
     for P in product(range(N), repeat = N):
-        # print(P)
         ret += reduce(gcd, P) * sum(i * c[P[i]] for i in range(N))
 
     return ret % MOD
