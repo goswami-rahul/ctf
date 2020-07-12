@@ -1,4 +1,4 @@
-# Slowest Algorithm
+# Slowest Decryption
 
 <https://ctftime.org/writeup/22208>  
 
