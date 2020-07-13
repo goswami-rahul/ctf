@@ -11,7 +11,7 @@ Submit the number wrapped in the flag format, like rgbCTF{123}
 ---
 
 Initially mark all the cells with `0` as visited.
-Loop through all the cells of the grid, when find an unmarked cell, increment the islands count, and find its island and mark all its cells as visited using dfs from the cell.  
+Loop through all the cells of the grid, when find an unmarked cell, increment the islands count, and find its island and mark all its cells as visited using dfs from the cell. Complexity $\mathcal{O}(n^2)$.  
 
 My C++ script
 

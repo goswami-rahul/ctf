@@ -2,7 +2,7 @@
 
 First, let's say we want to count the ways as $f(x, n)$ with $x$ and $n$ as mentioned in the statement.  
 If we fix the largest number in our partition, we see that it always uses the most significant bit in it ($2^{n-1}$). So, we use it and we can choose any bits from the remaining $n-1$ bits.  
-Say we choose 2 other bits, now we have $n-3$ bits remaining, and $x-1$ parts to partition. So we can solve it recursively (with memoization ofcourse).  
+Say we choose 2 other bits, now we have $n-3$ bits remaining, and $x-1$ parts to partition. So we can solve it recursively (with memoization ofcourse). Complexity $\mathcal{O}(n^2x)$.  
 
 The recurrance is
 
