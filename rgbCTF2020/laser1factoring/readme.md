@@ -1,5 +1,7 @@
 # Laser 1 - Factoring
 
+<https://ctftime.org/writeup/22263>
+
 I enjoyed solving this. I wrote a O(n) algorithm to generate the factors.  
 It can be tricky because we have to output them in ascending order.
 Since the stack is reversed, I had to iterate on numbers n to 1 in decreasing order, inserting the factors in a separate stack.

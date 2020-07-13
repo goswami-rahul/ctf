@@ -1,5 +1,7 @@
 # Penguins
 
+<https://ctftime.org/writeup/22266>
+
 We have a zip archive `2020-06-29-173949.zip`. On extracting, the tree looks like
 
 ```term

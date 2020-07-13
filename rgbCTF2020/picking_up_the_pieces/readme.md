@@ -1,5 +1,7 @@
 # Picking Up The Pieces
 
+<https://ctftime.org/writeup/22258>
+
 Construct a graph with intersections as vertices, and road as edges with weights.  
 Run Dijkstra'a Shortest Path Algorithm on it, storing the links and trace back to get the actual path.  
 Complexity $\mathcal{O}(n \log n)$  

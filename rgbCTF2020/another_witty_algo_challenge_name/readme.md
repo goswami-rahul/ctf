@@ -1,5 +1,7 @@
 # [another witty algo challenge name]
 
+<https://ctftime.org/writeup/22243>
+
 ## Statement
 
 This is pretty simple. You get a list of 5000 by 5000 grid of ones and zeros, and you have to print the number of islands in the grid.

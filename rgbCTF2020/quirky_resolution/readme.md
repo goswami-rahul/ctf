@@ -1,5 +1,7 @@
 # Quirky Resolution
 
+<https://ctftime.org/writeup/22260>
+
 We have the file  
 
 ![image](https://github.com/goswami-rahul/ctf/raw/master/rgbCTF2020/quirky_resolution/quirky_resolution.png)
@@ -25,7 +27,7 @@ Image.fromarray(img).save('qr.png')
 
 ![QR](https://github.com/goswami-rahul/ctf/raw/master/rgbCTF2020/quirky_resolution/qr.png)
 
-It's a QR code. Scan this file using any QR scanner and get the flag. 
+It's a QR code. Scan this file using any QR scanner and get the flag.
 
 ```txt
 rgbCTF{th3_qu1rk!er_th3_b3tt3r}
