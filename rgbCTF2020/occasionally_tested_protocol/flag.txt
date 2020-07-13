@@ -1,0 +1,1 @@
+rgbCTF{random_is_not_secure}
