@@ -15,7 +15,6 @@ rsrU>⌝rwD%⌝prU>(\
           s    
           \   /   
     \           /
-
 ```
 
 It passes all tests and get the flag
