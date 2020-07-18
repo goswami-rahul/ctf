@@ -1,0 +1,1 @@
+chCTF{PHP_93t_ArRAY_pAram3t3R_F0R_th3_Win}
