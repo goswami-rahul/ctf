@@ -27,24 +27,7 @@ def dec4(text):
 key = 'ieluvnvfgvfahuxhvfphbppnbgrfcrn'
 enc = '»·­ª»£µ±¬¥¼±ºµ±¿·£¦­´¯ª¨¥«¥¦«´¸¦¡¸¢²§¤¦¦¹¨'
 
-# key = 'xxzzzzkzxzzlzzzzjzzznzzzzzzzzdz'
-# enc = 'ªª¨ª²ªªª®ª½¨ªªªªªª¹ª®¥ªªª¤²¤ª®ªª¦ª¨¸ªªªª¨ª'
-
-# print(len(key))
-# print(len(enc))
-# mapping = [23, 9, 5, 6, 22, 28, 25, 30, 15, 8, 16, 19, 24, 11, 10, 7, 2, 14, 18, 1, 29, 21, 12, 4, 20, 0, 26, 13, 17, 3, 27]
-# print(len(mapping))
-# mapping = [28, 33, 6, 17, 7, 41, 27, 29, 31, 30, 39, 21, 34, 15, 3, 5, 13, 10, 19, 38, 40, 14, 26, 25, 32, 0, 36, 8, 18, 4, 1, 11, 24, 2, 37, 20, 23, 35, 22, 12, 16, 9]
-# print(len(mapping))
-# fk = "lmao_key_"
-# ff = "my_fg_"
-# fk += (len(key) - len(fk)) * 'a'
-# ff += (len(enc) - len(ff)) * 'a'
-# print(fk)
-# print(ff)
-
 key = dec4(dec4(key))
-# print(key)
 
 for i in range(26):
     nkey = ''.join(chr((ord(c) - 97 + i) % 26 + 97) for c in key)
