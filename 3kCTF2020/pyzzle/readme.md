@@ -15,6 +15,23 @@ def reverse():
 
 The plaintext is decrypted using a couple XORs on some numbers, we can easily decrypt them to get the plaintext.
 
+```py
+K1 = int(K1, 2)
+K2 = int(K2, 2)
+
+R3 = int(R3, 2)
+L3 = int(L3, 2)
+
+L = K2 ^ R3 ^ K1
+R = L ^ L3 ^ K1
+
+plaintext = binascii.unhexlify('%x' % ((L << n) | R))
+plaintext = binascii.unhexlify(plaintext).decode()
+
+with open('graph', 'w') as f:
+    f.write(plaintext)
+```
+
 The plaintext has our first flag.
 
 ```txt
