@@ -1,0 +1,11 @@
+#!/usr/bin/env python
+from sympy import primefactors, mod_inverse, totient
+
+c = 10247955272908064997771727568918647737311526262165262458875076213296879253353684001266750329
+e = 65537
+n = 14393188157100504374851319373504728765762087532393762203410288659620743314524046223483350199
+
+phi = totient(n)
+d = mod_inverse(e, phi)
+flag = pow(c, d, n)
+print(flag.to_bytes(flag.bit_length() // 8 + 1, 'big').decode())
